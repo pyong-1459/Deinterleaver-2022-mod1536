@@ -20,6 +20,8 @@ F:  Out(8w+5) = F((w + 192)  mod 1536)
 G:  Out(8w+6) = G((w + 960)  mod 1536)
 
 H:  Out(8w+7) = H((w + 576)  mod 1536)
+
+w: range(1536)
 ## Verilog
 ### deinterleaver.v
 Main Control logic
